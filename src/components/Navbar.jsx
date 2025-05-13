@@ -1,5 +1,5 @@
 import React from 'react';
-import './Navbar.css'; // create this later to style separately
+import '/Users/gillguimaraes/Documents/GitHub_Projects/StudentProgressTracker/student-progress-tracker/src/styles/Navbar.css'; // create this later to style separately
 
 export default function Navbar() {
   return (

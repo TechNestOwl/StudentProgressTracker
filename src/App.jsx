@@ -1,14 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Navbar from './components/Navbar';
+import StudentForm from './components/StudentForm';
+import StudentTable from './components/StudentTable';
 import './styles/global.css';
 
 function App() {
+  const [students, setStudents] = useState([]);
+
+  const handleAddStudent = (student) => {
+    setStudents((prev) => [...prev, student]);
+  };
+
   return (
     <>
       <Navbar />
       <main className="container">
-        <h2>Welcome to the Dashboard</h2>
-        {/* We’ll add student form and table here later */}
+        <StudentForm onAddStudent={handleAddStudent} />
+        <StudentTable students={students} />
       </main>
     </>
   );
