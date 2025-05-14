@@ -7,10 +7,10 @@ A lightweight React web app that allows educators and program admins to manage a
 
 ## 🚀 Features
 
-- ✅ Add new students with name, age, program, and progress
-- 🎛️ Filter student list by program (dropdown menu)
-- ✏️ Edit and update student info inline
-- ❌ Delete students from the list
+-  Add new students with name, age, program, and progress
+-  Filter student list by program (dropdown menu)
+-  Edit and update student info inline
+-  Delete students from the list
 - 📱 Responsive design with clean UI
 
 ---
