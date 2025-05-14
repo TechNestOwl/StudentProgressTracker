@@ -31,7 +31,7 @@ function App() {
           setFilter={setFilter}
           programs={programs}
         />
-        <StudentTable students={filteredStudents} />
+        <StudentTable students={filteredStudents} setStudents={setStudents} />
       </main>
     </>
   );
