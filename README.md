@@ -26,23 +26,5 @@ A lightweight React web app that allows educators and program admins to manage a
 
 ---
 
-## 📂 Project Structure
-
-src/
-├── components/
-│ ├── Navbar.jsx
-│ ├── StudentForm.jsx
-│ ├── StudentTable.jsx
-│ └── FilterMenu.jsx
-├── styles/
-│ ├── global.css
-│ ├── Navbar.css
-│ ├── StudentTable.css
-│ └── FilterMenu.css
-├── App.jsx
-└── main.jsx
-
-
-
 Gill Guimaraes 
 May 14, 2025
